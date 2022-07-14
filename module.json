@@ -1,0 +1,41 @@
+{   
+   "name": "Ebon-Evoker",   
+   "title": "Ebon-Evoker",   
+   "description": "Contains all of the features of the Ebon Evoker Archetype",   
+   "authors": [
+	   "Aaron Brandon",
+	   "Shawn Pommier"
+   ],
+   "version": "1.0.1",
+   "minimumCoreVersion": "9",
+   "compatibleCoreVersion":"9",
+   "packs": [
+    {
+      "name": "items",
+      "label": "Ebon Evoker Features",
+      "path": "packs/items.db",
+      "entity": "Item",
+      "module": "Ebon-Evoker",
+      "system": "pf2e"
+    },
+    {
+      "name": "Ebon Evoker",
+      "label": "Ebon Evoker Details",
+      "path": "packs/journal.db",
+      "entity": "JournalEntry",
+      "module": "Ebon-Evoker",
+      "system": "pf2e"
+    }
+  ],
+   "dependencies": [
+    {
+      "name": "pf2e",
+      "type": "system"
+    }
+  ],
+  "url": "https://github.com/abrandon2718/Ebon-Evoker",
+  "manifest": "https://raw.githubusercontent.com/abrandon2718/Ebon-Evoker/master/module.json",
+  "download": "https://github.com/abrandon2718/Ebon-Evoker/archive/refs/heads/main.zip"
+
+
+}
